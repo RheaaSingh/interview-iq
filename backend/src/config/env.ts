@@ -15,6 +15,7 @@ export const env = {
   DB_NAME: process.env.DB_NAME || 'interview_iq',
   DB_USER: process.env.DB_USER || 'postgres',
   DB_PASSWORD: process.env.DB_PASSWORD || 'postgres',
+  DATABASE_URL: process.env.DATABASE_URL || '',
   UPLOAD_DIR: process.env.UPLOAD_DIR || path.resolve(__dirname, '../../uploads'),
   MAX_FILE_SIZE: parseInt(process.env.MAX_FILE_SIZE || '5242880', 10),
   CORS_ORIGIN: process.env.CORS_ORIGIN || 'http://localhost:3000',
